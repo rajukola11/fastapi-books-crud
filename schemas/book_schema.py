@@ -1,12 +1,13 @@
 from pydantic import BaseModel
 from typing import Optional
+from datetime import date
 
 class Book(BaseModel):
     id:int
     title:str
     author:str
     publisher:str
-    published_date:str
+    published_date:date
     page_count:int
     language:str
 
