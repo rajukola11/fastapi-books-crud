@@ -40,8 +40,6 @@ This project uses **Neon (Serverless PostgreSQL)** as the database.
 - Works like standard Postgres (no vendor lock-in)
 - Connected via SQLAlchemy
 
-> ⚠️ Database credentials are currently hardcoded for learning purposes.  
-> They will be moved to environment variables (`.env`) in the next iteration.
 
 ---
 
